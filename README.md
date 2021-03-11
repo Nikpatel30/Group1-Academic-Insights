@@ -1,1 +1,1 @@
-Academic Insight
+<h1>Academic Insight</h1>
