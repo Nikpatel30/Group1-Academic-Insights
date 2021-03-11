@@ -1,0 +1,40 @@
+{
+  "build": "eigen_py37hd727fc0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/win-64",
+  "constrains": [],
+  "depends": [
+    "_tflow_select 2.2.0 eigen",
+    "python 3.7.*",
+    "tensorboard >=2.1.0",
+    "tensorflow-base 2.1.0 eigen_py37h49b2757_0",
+    "tensorflow-estimator >=2.1.0"
+  ],
+  "extracted_package_dir": "C:\\NiksBot\\pkgs\\tensorflow-2.1.0-eigen_py37hd727fc0_0",
+  "features": "",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "tensorflow-2.1.0-eigen_py37hd727fc0_0.tar.bz2",
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "C:\\NiksBot\\pkgs\\tensorflow-2.1.0-eigen_py37hd727fc0_0",
+    "type": 1
+  },
+  "md5": "904ee58e6b32223d07c5032657c57305",
+  "name": "tensorflow",
+  "package_tarball_full_path": "C:\\NiksBot\\pkgs\\tensorflow-2.1.0-eigen_py37hd727fc0_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "tensorflow==2.1",
+  "sha256": "c672eaf570151eec77026c444121f649b52930dc0f885acad93f109005d0403e",
+  "size": 3933,
+  "subdir": "win-64",
+  "timestamp": 1582124797755,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/win-64/tensorflow-2.1.0-eigen_py37hd727fc0_0.tar.bz2",
+  "version": "2.1.0"
+}

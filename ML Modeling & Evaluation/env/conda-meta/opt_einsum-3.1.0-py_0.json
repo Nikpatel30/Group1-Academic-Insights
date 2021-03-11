@@ -1,0 +1,408 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy",
+    "python >=3.5"
+  ],
+  "extracted_package_dir": "C:\\NiksBot\\pkgs\\opt_einsum-3.1.0-py_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/opt_einsum-3.1.0.dist-info/INSTALLER",
+    "Lib/site-packages/opt_einsum-3.1.0.dist-info/LICENSE",
+    "Lib/site-packages/opt_einsum-3.1.0.dist-info/METADATA",
+    "Lib/site-packages/opt_einsum-3.1.0.dist-info/RECORD",
+    "Lib/site-packages/opt_einsum-3.1.0.dist-info/WHEEL",
+    "Lib/site-packages/opt_einsum-3.1.0.dist-info/top_level.txt",
+    "Lib/site-packages/opt_einsum-3.1.0.dist-info/zip-safe",
+    "Lib/site-packages/opt_einsum/__init__.py",
+    "Lib/site-packages/opt_einsum/_version.py",
+    "Lib/site-packages/opt_einsum/backends/__init__.py",
+    "Lib/site-packages/opt_einsum/backends/cupy.py",
+    "Lib/site-packages/opt_einsum/backends/dispatch.py",
+    "Lib/site-packages/opt_einsum/backends/jax.py",
+    "Lib/site-packages/opt_einsum/backends/tensorflow.py",
+    "Lib/site-packages/opt_einsum/backends/theano.py",
+    "Lib/site-packages/opt_einsum/backends/torch.py",
+    "Lib/site-packages/opt_einsum/blas.py",
+    "Lib/site-packages/opt_einsum/contract.py",
+    "Lib/site-packages/opt_einsum/helpers.py",
+    "Lib/site-packages/opt_einsum/parser.py",
+    "Lib/site-packages/opt_einsum/path_random.py",
+    "Lib/site-packages/opt_einsum/paths.py",
+    "Lib/site-packages/opt_einsum/sharing.py",
+    "Lib/site-packages/opt_einsum/tests/__init__.py",
+    "Lib/site-packages/opt_einsum/tests/test_backends.py",
+    "Lib/site-packages/opt_einsum/tests/test_blas.py",
+    "Lib/site-packages/opt_einsum/tests/test_contract.py",
+    "Lib/site-packages/opt_einsum/tests/test_edge_cases.py",
+    "Lib/site-packages/opt_einsum/tests/test_input.py",
+    "Lib/site-packages/opt_einsum/tests/test_paths.py",
+    "Lib/site-packages/opt_einsum/tests/test_sharing.py",
+    ".nonadmin",
+    "Lib/site-packages/opt_einsum/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/_version.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/backends/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/backends/__pycache__/cupy.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/backends/__pycache__/dispatch.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/backends/__pycache__/jax.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/backends/__pycache__/tensorflow.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/backends/__pycache__/theano.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/backends/__pycache__/torch.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/blas.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/contract.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/helpers.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/parser.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/path_random.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/paths.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/sharing.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/test_backends.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/test_blas.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/test_contract.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/test_edge_cases.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/test_input.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/test_paths.cpython-37.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/test_sharing.cpython-37.pyc"
+  ],
+  "fn": "opt_einsum-3.1.0-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\NiksBot\\pkgs\\opt_einsum-3.1.0-py_0",
+    "type": 1
+  },
+  "md5": "a3c1ed8976871a6516ff92520bab0efd",
+  "name": "opt_einsum",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\NiksBot\\pkgs\\opt_einsum-3.1.0-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/opt_einsum-3.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/opt_einsum-3.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7b26691a7c8ee48af425a53cbaeaabc9aa3a84ea2e93fe47a1ecc550c1de76db",
+        "sha256_in_prefix": "7b26691a7c8ee48af425a53cbaeaabc9aa3a84ea2e93fe47a1ecc550c1de76db",
+        "size_in_bytes": 1080
+      },
+      {
+        "_path": "site-packages/opt_einsum-3.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "84e10bd1a2997f12f8e5249c0252f392b304d355570656848eded305aa8c47f6",
+        "sha256_in_prefix": "84e10bd1a2997f12f8e5249c0252f392b304d355570656848eded305aa8c47f6",
+        "size_in_bytes": 6385
+      },
+      {
+        "_path": "site-packages/opt_einsum-3.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6fd34f6b9d53b5fdb1f16703971d1e5c32351f689841e5245ebddd1d2660706b",
+        "sha256_in_prefix": "6fd34f6b9d53b5fdb1f16703971d1e5c32351f689841e5245ebddd1d2660706b",
+        "size_in_bytes": 3940
+      },
+      {
+        "_path": "site-packages/opt_einsum-3.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c18058d843b9d0584071c9295a63b77376709363002c00b1ea53c097a8152a71",
+        "sha256_in_prefix": "c18058d843b9d0584071c9295a63b77376709363002c00b1ea53c097a8152a71",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/opt_einsum-3.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b250de1912b0efb152b1f094a42e502ef14e3158471c70fb3055317e3cb44e97",
+        "sha256_in_prefix": "b250de1912b0efb152b1f094a42e502ef14e3158471c70fb3055317e3cb44e97",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/opt_einsum-3.1.0.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/opt_einsum/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b30312e99afb9293582510f398fbec6ccdb0d71aceff01b3c69c04c8f5a5c8f9",
+        "sha256_in_prefix": "b30312e99afb9293582510f398fbec6ccdb0d71aceff01b3c69c04c8f5a5c8f9",
+        "size_in_bytes": 599
+      },
+      {
+        "_path": "site-packages/opt_einsum/_version.py",
+        "path_type": "hardlink",
+        "sha256": "51607d8ccce798f8e8a624e3a094a93fde0d126a4fbc11bfb7d5485a4fd94906",
+        "sha256_in_prefix": "51607d8ccce798f8e8a624e3a094a93fde0d126a4fbc11bfb7d5485a4fd94906",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "site-packages/opt_einsum/backends/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "011284be2c3f1dc4d613b7f5c03e79a5132c2e14433116c0f347ca613d96f91e",
+        "sha256_in_prefix": "011284be2c3f1dc4d613b7f5c03e79a5132c2e14433116c0f347ca613d96f91e",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "site-packages/opt_einsum/backends/cupy.py",
+        "path_type": "hardlink",
+        "sha256": "1c48bad79b1994bf5d08c9c1bec88358138182b680ec1b939cf93daaafb2be09",
+        "sha256_in_prefix": "1c48bad79b1994bf5d08c9c1bec88358138182b680ec1b939cf93daaafb2be09",
+        "size_in_bytes": 921
+      },
+      {
+        "_path": "site-packages/opt_einsum/backends/dispatch.py",
+        "path_type": "hardlink",
+        "sha256": "94e386bf7e9ed7a89183fa4032f8484430ac941f3ab20ee6867e6af7927c18be",
+        "sha256_in_prefix": "94e386bf7e9ed7a89183fa4032f8484430ac941f3ab20ee6867e6af7927c18be",
+        "size_in_bytes": 3942
+      },
+      {
+        "_path": "site-packages/opt_einsum/backends/jax.py",
+        "path_type": "hardlink",
+        "sha256": "67bb9372c324302e7fa6fc67ee5ff1c383b0d95388d4d74c60b29292bf0b4ee7",
+        "sha256_in_prefix": "67bb9372c324302e7fa6fc67ee5ff1c383b0d95388d4d74c60b29292bf0b4ee7",
+        "size_in_bytes": 874
+      },
+      {
+        "_path": "site-packages/opt_einsum/backends/tensorflow.py",
+        "path_type": "hardlink",
+        "sha256": "c67aa82212b3dd271b5e3bb58a48ad1c162101eb7c945f72cf6941eeede7ee23",
+        "sha256_in_prefix": "c67aa82212b3dd271b5e3bb58a48ad1c162101eb7c945f72cf6941eeede7ee23",
+        "size_in_bytes": 3860
+      },
+      {
+        "_path": "site-packages/opt_einsum/backends/theano.py",
+        "path_type": "hardlink",
+        "sha256": "75c220af47753f0ce9e4baf44df8c3ce23e3223659f3a4e85835b7904b588a77",
+        "sha256_in_prefix": "75c220af47753f0ce9e4baf44df8c3ce23e3223659f3a4e85835b7904b588a77",
+        "size_in_bytes": 1658
+      },
+      {
+        "_path": "site-packages/opt_einsum/backends/torch.py",
+        "path_type": "hardlink",
+        "sha256": "5d24cad90676ded8ef46c4a1f6bb474dc4b54c9e64a1155149237510993cedc1",
+        "sha256_in_prefix": "5d24cad90676ded8ef46c4a1f6bb474dc4b54c9e64a1155149237510993cedc1",
+        "size_in_bytes": 3505
+      },
+      {
+        "_path": "site-packages/opt_einsum/blas.py",
+        "path_type": "hardlink",
+        "sha256": "8221187fc0c1d62a27dd02369b887a21c7c2269c202091bbceaf0d4e55b40b9b",
+        "sha256_in_prefix": "8221187fc0c1d62a27dd02369b887a21c7c2269c202091bbceaf0d4e55b40b9b",
+        "size_in_bytes": 7705
+      },
+      {
+        "_path": "site-packages/opt_einsum/contract.py",
+        "path_type": "hardlink",
+        "sha256": "7346831e37b2721ab45f6600b0b9e8f929062bb475ea295af98dc5f5c6104589",
+        "sha256_in_prefix": "7346831e37b2721ab45f6600b0b9e8f929062bb475ea295af98dc5f5c6104589",
+        "size_in_bytes": 34080
+      },
+      {
+        "_path": "site-packages/opt_einsum/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "cbd4f84be4c6ce3c36ad6a701f5a71ec33505c6e0ab637264309130f470ebd1e",
+        "sha256_in_prefix": "cbd4f84be4c6ce3c36ad6a701f5a71ec33505c6e0ab637264309130f470ebd1e",
+        "size_in_bytes": 7658
+      },
+      {
+        "_path": "site-packages/opt_einsum/parser.py",
+        "path_type": "hardlink",
+        "sha256": "863faaae0a15bed2f00d43a878cabccb854bacd2945a6b0c87f4ee4e4dfc22cc",
+        "sha256_in_prefix": "863faaae0a15bed2f00d43a878cabccb854bacd2945a6b0c87f4ee4e4dfc22cc",
+        "size_in_bytes": 10749
+      },
+      {
+        "_path": "site-packages/opt_einsum/path_random.py",
+        "path_type": "hardlink",
+        "sha256": "0fbee58819fa49c95679477fc1514c06949f7938bc9fb5651010acfc5177ec75",
+        "sha256_in_prefix": "0fbee58819fa49c95679477fc1514c06949f7938bc9fb5651010acfc5177ec75",
+        "size_in_bytes": 13097
+      },
+      {
+        "_path": "site-packages/opt_einsum/paths.py",
+        "path_type": "hardlink",
+        "sha256": "e649126f2fcc9a3a094aed3d2459a50d9de0a3f882d717a58021f2c7f9f68fb6",
+        "sha256_in_prefix": "e649126f2fcc9a3a094aed3d2459a50d9de0a3f882d717a58021f2c7f9f68fb6",
+        "size_in_bytes": 37134
+      },
+      {
+        "_path": "site-packages/opt_einsum/sharing.py",
+        "path_type": "hardlink",
+        "sha256": "507feba297ae51d25860f276ad815df004c6ed2dd77b8592c16203d7f35074d4",
+        "sha256_in_prefix": "507feba297ae51d25860f276ad815df004c6ed2dd77b8592c16203d7f35074d4",
+        "size_in_bytes": 6301
+      },
+      {
+        "_path": "site-packages/opt_einsum/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/opt_einsum/tests/test_backends.py",
+        "path_type": "hardlink",
+        "sha256": "ca397a1bbde6ede1f04070cda46743e2531014690aa16fa561ae9da5448af930",
+        "sha256_in_prefix": "ca397a1bbde6ede1f04070cda46743e2531014690aa16fa561ae9da5448af930",
+        "size_in_bytes": 14726
+      },
+      {
+        "_path": "site-packages/opt_einsum/tests/test_blas.py",
+        "path_type": "hardlink",
+        "sha256": "7617c12bca04c7e8584948bbcc751e2e63bef47897c9a7f4c76d705bd87cd46f",
+        "sha256_in_prefix": "7617c12bca04c7e8584948bbcc751e2e63bef47897c9a7f4c76d705bd87cd46f",
+        "size_in_bytes": 4326
+      },
+      {
+        "_path": "site-packages/opt_einsum/tests/test_contract.py",
+        "path_type": "hardlink",
+        "sha256": "819ccecc699dab44a494f5d5c7756b285cbc5a277e87fcf7cc9a8e4f67d9eb22",
+        "sha256_in_prefix": "819ccecc699dab44a494f5d5c7756b285cbc5a277e87fcf7cc9a8e4f67d9eb22",
+        "size_in_bytes": 7738
+      },
+      {
+        "_path": "site-packages/opt_einsum/tests/test_edge_cases.py",
+        "path_type": "hardlink",
+        "sha256": "15bd9960a21874e67e385f4443abc14991ca47d3db9af4cfd3dab9bdd709f2ba",
+        "sha256_in_prefix": "15bd9960a21874e67e385f4443abc14991ca47d3db9af4cfd3dab9bdd709f2ba",
+        "size_in_bytes": 4159
+      },
+      {
+        "_path": "site-packages/opt_einsum/tests/test_input.py",
+        "path_type": "hardlink",
+        "sha256": "b6ec5727e6b55629723207f7256e01c3f5bf5574ca3029a5b7c4156d5b8450c2",
+        "sha256_in_prefix": "b6ec5727e6b55629723207f7256e01c3f5bf5574ca3029a5b7c4156d5b8450c2",
+        "size_in_bytes": 7833
+      },
+      {
+        "_path": "site-packages/opt_einsum/tests/test_paths.py",
+        "path_type": "hardlink",
+        "sha256": "394a0e099b5315de26d2f12af63b20de052877e58645b48d283303f73b9331e6",
+        "sha256_in_prefix": "394a0e099b5315de26d2f12af63b20de052877e58645b48d283303f73b9331e6",
+        "size_in_bytes": 13338
+      },
+      {
+        "_path": "site-packages/opt_einsum/tests/test_sharing.py",
+        "path_type": "hardlink",
+        "sha256": "c87db45a91ef660808b617459dd25d327c6151e818379209d239cd3ea366cbe5",
+        "sha256_in_prefix": "c87db45a91ef660808b617459dd25d327c6151e818379209d239cd3ea366cbe5",
+        "size_in_bytes": 12766
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/_version.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__pycache__/cupy.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__pycache__/dispatch.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__pycache__/jax.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__pycache__/tensorflow.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__pycache__/theano.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__pycache__/torch.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/blas.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/contract.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/helpers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/parser.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/path_random.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/paths.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/sharing.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/test_backends.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/test_blas.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/test_contract.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/test_edge_cases.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/test_input.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/test_paths.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/test_sharing.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7ac93cbad610d94bf255e094da731aa93fb033c6e97ec3f37a1e9e6880199ec4",
+  "size": 54993,
+  "subdir": "noarch",
+  "timestamp": 1570813273975,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/opt_einsum-3.1.0-py_0.tar.bz2",
+  "version": "3.1.0"
+}

@@ -1,0 +1,13 @@
+prefix=C:/NiksBot/envs/rasabot_1.8.0/Library
+exec_prefix=C:/NiksBot/envs/rasabot_1.8.0/Library
+libdir=C:/NiksBot/envs/rasabot_1.8.0/Library/lib
+sharedlibdir=C:/NiksBot/envs/rasabot_1.8.0/Library/lib
+includedir=C:/NiksBot/envs/rasabot_1.8.0/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

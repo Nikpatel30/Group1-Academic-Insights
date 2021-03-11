@@ -1,0 +1,307 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [
+    "keras >=2.1.6"
+  ],
+  "depends": [
+    "h5py",
+    "numpy >=1.9.1",
+    "python"
+  ],
+  "extracted_package_dir": "C:\\NiksBot\\pkgs\\keras-applications-1.0.8-py_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/Keras_Applications-1.0.8.dist-info/INSTALLER",
+    "Lib/site-packages/Keras_Applications-1.0.8.dist-info/LICENSE",
+    "Lib/site-packages/Keras_Applications-1.0.8.dist-info/METADATA",
+    "Lib/site-packages/Keras_Applications-1.0.8.dist-info/RECORD",
+    "Lib/site-packages/Keras_Applications-1.0.8.dist-info/WHEEL",
+    "Lib/site-packages/Keras_Applications-1.0.8.dist-info/direct_url.json",
+    "Lib/site-packages/Keras_Applications-1.0.8.dist-info/top_level.txt",
+    "Lib/site-packages/keras_applications/__init__.py",
+    "Lib/site-packages/keras_applications/densenet.py",
+    "Lib/site-packages/keras_applications/imagenet_utils.py",
+    "Lib/site-packages/keras_applications/inception_resnet_v2.py",
+    "Lib/site-packages/keras_applications/inception_v3.py",
+    "Lib/site-packages/keras_applications/mobilenet.py",
+    "Lib/site-packages/keras_applications/mobilenet_v2.py",
+    "Lib/site-packages/keras_applications/nasnet.py",
+    "Lib/site-packages/keras_applications/resnet.py",
+    "Lib/site-packages/keras_applications/resnet50.py",
+    "Lib/site-packages/keras_applications/resnet_common.py",
+    "Lib/site-packages/keras_applications/resnet_v2.py",
+    "Lib/site-packages/keras_applications/resnext.py",
+    "Lib/site-packages/keras_applications/vgg16.py",
+    "Lib/site-packages/keras_applications/vgg19.py",
+    "Lib/site-packages/keras_applications/xception.py",
+    ".nonadmin",
+    "Lib/site-packages/keras_applications/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/keras_applications/__pycache__/densenet.cpython-37.pyc",
+    "Lib/site-packages/keras_applications/__pycache__/imagenet_utils.cpython-37.pyc",
+    "Lib/site-packages/keras_applications/__pycache__/inception_resnet_v2.cpython-37.pyc",
+    "Lib/site-packages/keras_applications/__pycache__/inception_v3.cpython-37.pyc",
+    "Lib/site-packages/keras_applications/__pycache__/mobilenet.cpython-37.pyc",
+    "Lib/site-packages/keras_applications/__pycache__/mobilenet_v2.cpython-37.pyc",
+    "Lib/site-packages/keras_applications/__pycache__/nasnet.cpython-37.pyc",
+    "Lib/site-packages/keras_applications/__pycache__/resnet.cpython-37.pyc",
+    "Lib/site-packages/keras_applications/__pycache__/resnet50.cpython-37.pyc",
+    "Lib/site-packages/keras_applications/__pycache__/resnet_common.cpython-37.pyc",
+    "Lib/site-packages/keras_applications/__pycache__/resnet_v2.cpython-37.pyc",
+    "Lib/site-packages/keras_applications/__pycache__/resnext.cpython-37.pyc",
+    "Lib/site-packages/keras_applications/__pycache__/vgg16.cpython-37.pyc",
+    "Lib/site-packages/keras_applications/__pycache__/vgg19.cpython-37.pyc",
+    "Lib/site-packages/keras_applications/__pycache__/xception.cpython-37.pyc"
+  ],
+  "fn": "keras-applications-1.0.8-py_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\NiksBot\\pkgs\\keras-applications-1.0.8-py_1",
+    "type": 1
+  },
+  "md5": "ab0f0a4becfc709fbc3d5b5118fb63a1",
+  "name": "keras-applications",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\NiksBot\\pkgs\\keras-applications-1.0.8-py_1.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/Keras_Applications-1.0.8.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/Keras_Applications-1.0.8.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "82e4461dcead03930115f469fd487dc1e60421119e36b25c5be707f1dba08170",
+        "sha256_in_prefix": "82e4461dcead03930115f469fd487dc1e60421119e36b25c5be707f1dba08170",
+        "size_in_bytes": 1561
+      },
+      {
+        "_path": "site-packages/Keras_Applications-1.0.8.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b3da26360b5820627933ccf4bc7ebae6e537d3555ee9872242b1276d388c61e3",
+        "sha256_in_prefix": "b3da26360b5820627933ccf4bc7ebae6e537d3555ee9872242b1276d388c61e3",
+        "size_in_bytes": 1653
+      },
+      {
+        "_path": "site-packages/Keras_Applications-1.0.8.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "747098ba048b32ae2c0601254b439cb26c900effbdb6585417590180b07ffc7a",
+        "sha256_in_prefix": "747098ba048b32ae2c0601254b439cb26c900effbdb6585417590180b07ffc7a",
+        "size_in_bytes": 3039
+      },
+      {
+        "_path": "site-packages/Keras_Applications-1.0.8.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/Keras_Applications-1.0.8.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e966d5b784a4197ef03c5b2ac00086735b0119864ae02b1a73900806aec4b963",
+        "sha256_in_prefix": "e966d5b784a4197ef03c5b2ac00086735b0119864ae02b1a73900806aec4b963",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/Keras_Applications-1.0.8.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "85449376956ffe03c0551f9825da07ca689957dfb263348d801541a8bc6cf0a6",
+        "sha256_in_prefix": "85449376956ffe03c0551f9825da07ca689957dfb263348d801541a8bc6cf0a6",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "site-packages/keras_applications/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fd8175358cf1d2bbbe0840de053501eb7f1fe237337da13b20799adfe278cfe5",
+        "sha256_in_prefix": "fd8175358cf1d2bbbe0840de053501eb7f1fe237337da13b20799adfe278cfe5",
+        "size_in_bytes": 1846
+      },
+      {
+        "_path": "site-packages/keras_applications/densenet.py",
+        "path_type": "hardlink",
+        "sha256": "15acf73d5df0e42b3cc2b0c005bbacf33d45b4733c250f3595dd0207fbd5ae1c",
+        "sha256_in_prefix": "15acf73d5df0e42b3cc2b0c005bbacf33d45b4733c250f3595dd0207fbd5ae1c",
+        "size_in_bytes": 13450
+      },
+      {
+        "_path": "site-packages/keras_applications/imagenet_utils.py",
+        "path_type": "hardlink",
+        "sha256": "0692a4f76225256e65d1b4acbd46e925686a095785344d7b6a338d26776837e5",
+        "sha256_in_prefix": "0692a4f76225256e65d1b4acbd46e925686a095785344d7b6a338d26776837e5",
+        "size_in_bytes": 12634
+      },
+      {
+        "_path": "site-packages/keras_applications/inception_resnet_v2.py",
+        "path_type": "hardlink",
+        "sha256": "12c698ddedbb74da15e40db54af8162e732e6f4f4211ab0186eff5b59be13eed",
+        "sha256_in_prefix": "12c698ddedbb74da15e40db54af8162e732e6f4f4211ab0186eff5b59be13eed",
+        "size_in_bytes": 14743
+      },
+      {
+        "_path": "site-packages/keras_applications/inception_v3.py",
+        "path_type": "hardlink",
+        "sha256": "6bdeecc0c5e0341451f5d87e17d12c89a210b6161e1b066aca6e02bc425b2abf",
+        "sha256_in_prefix": "6bdeecc0c5e0341451f5d87e17d12c89a210b6161e1b066aca6e02bc425b2abf",
+        "size_in_bytes": 14598
+      },
+      {
+        "_path": "site-packages/keras_applications/mobilenet.py",
+        "path_type": "hardlink",
+        "sha256": "9e3b669092c19f6de513632eb3776fc9ecd1c4ff1f42fa855b4e00914db79f1b",
+        "sha256_in_prefix": "9e3b669092c19f6de513632eb3776fc9ecd1c4ff1f42fa855b4e00914db79f1b",
+        "size_in_bytes": 18982
+      },
+      {
+        "_path": "site-packages/keras_applications/mobilenet_v2.py",
+        "path_type": "hardlink",
+        "sha256": "3b9c8b0c7c65c27bd67ad4014c3541d85547c48110920c5c7508faf0062d499c",
+        "sha256_in_prefix": "3b9c8b0c7c65c27bd67ad4014c3541d85547c48110920c5c7508faf0062d499c",
+        "size_in_bytes": 20430
+      },
+      {
+        "_path": "site-packages/keras_applications/nasnet.py",
+        "path_type": "hardlink",
+        "sha256": "ee8c40c279fbe8cc37f6233b5a381e97a3ff30ecb09b594c2d54a07fa1103dc0",
+        "sha256_in_prefix": "ee8c40c279fbe8cc37f6233b5a381e97a3ff30ecb09b594c2d54a07fa1103dc0",
+        "size_in_bytes": 29982
+      },
+      {
+        "_path": "site-packages/keras_applications/resnet.py",
+        "path_type": "hardlink",
+        "sha256": "8c0d8f2508eb200e221aa1254982d4f375e8e781b586b21a28b9bf3c82402c15",
+        "sha256_in_prefix": "8c0d8f2508eb200e221aa1254982d4f375e8e781b586b21a28b9bf3c82402c15",
+        "size_in_bytes": 1041
+      },
+      {
+        "_path": "site-packages/keras_applications/resnet50.py",
+        "path_type": "hardlink",
+        "sha256": "60aa6be36fb334606ebf7fa855f113bd683f10bf0da27f4a912fde96280636c1",
+        "sha256_in_prefix": "60aa6be36fb334606ebf7fa855f113bd683f10bf0da27f4a912fde96280636c1",
+        "size_in_bytes": 11888
+      },
+      {
+        "_path": "site-packages/keras_applications/resnet_common.py",
+        "path_type": "hardlink",
+        "sha256": "cf0afaf9134ba043aada8580326bcef12f0710297d8b75560fb75addaffc6a69",
+        "sha256_in_prefix": "cf0afaf9134ba043aada8580326bcef12f0710297d8b75560fb75addaffc6a69",
+        "size_in_bytes": 22244
+      },
+      {
+        "_path": "site-packages/keras_applications/resnet_v2.py",
+        "path_type": "hardlink",
+        "sha256": "54ecd068e20bb812fe1a6ed378ad29de65bcf14db64707fe58d1975f9535c4e8",
+        "sha256_in_prefix": "54ecd068e20bb812fe1a6ed378ad29de65bcf14db64707fe58d1975f9535c4e8",
+        "size_in_bytes": 1051
+      },
+      {
+        "_path": "site-packages/keras_applications/resnext.py",
+        "path_type": "hardlink",
+        "sha256": "ed664b3ab217a9defffe2d230f1f19c64fc5427add3185f14689c3d8b9de11a0",
+        "sha256_in_prefix": "ed664b3ab217a9defffe2d230f1f19c64fc5427add3185f14689c3d8b9de11a0",
+        "size_in_bytes": 1020
+      },
+      {
+        "_path": "site-packages/keras_applications/vgg16.py",
+        "path_type": "hardlink",
+        "sha256": "fe99fd5e4606b0d702b3bdd39ace91e40d2f75a4fe4c5cdc2644c4e63f2b7a44",
+        "sha256_in_prefix": "fe99fd5e4606b0d702b3bdd39ace91e40d2f75a4fe4c5cdc2644c4e63f2b7a44",
+        "size_in_bytes": 8516
+      },
+      {
+        "_path": "site-packages/keras_applications/vgg19.py",
+        "path_type": "hardlink",
+        "sha256": "53c6f66727449edfd97125e4985e239e2d2c70dbef520e91209854135fc1943b",
+        "sha256_in_prefix": "53c6f66727449edfd97125e4985e239e2d2c70dbef520e91209854135fc1943b",
+        "size_in_bytes": 8997
+      },
+      {
+        "_path": "site-packages/keras_applications/xception.py",
+        "path_type": "hardlink",
+        "sha256": "eca8fb420d5fba92616ade38ee1e3cf90b5bc85e412ae255bd1b3328b3554a83",
+        "sha256_in_prefix": "eca8fb420d5fba92616ade38ee1e3cf90b5bc85e412ae255bd1b3328b3554a83",
+        "size_in_bytes": 13557
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/densenet.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/imagenet_utils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/inception_resnet_v2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/inception_v3.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/mobilenet.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/mobilenet_v2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/nasnet.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/resnet.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/resnet50.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/resnet_common.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/resnet_v2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/resnext.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/vgg16.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/vgg19.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/keras_applications/__pycache__/xception.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8489d4be300e30e3a3655d7c9a754de6e4048adaf2788dbe097bc22d2204bfa3",
+  "size": 30838,
+  "subdir": "noarch",
+  "timestamp": 1594366268850,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/keras-applications-1.0.8-py_1.tar.bz2",
+  "version": "1.0.8"
+}

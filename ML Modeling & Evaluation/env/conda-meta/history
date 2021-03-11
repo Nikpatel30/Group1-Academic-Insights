@@ -1,0 +1,109 @@
+==> 2021-02-25 13:20:16 <==
+# cmd: C:\NiksBot\Scripts\conda-script.py create --name rasabot_1.8.0
+# conda version: 4.9.2
+==> 2021-02-25 13:20:53 <==
+# cmd: C:\NiksBot\Scripts\conda-script.py install ujson
+# conda version: 4.9.2
++defaults/noarch::tzdata-2020f-h52ac0ba_0
++defaults/noarch::wheel-0.36.2-pyhd3eb1b0_0
++defaults/win-64::ca-certificates-2021.1.19-haa95532_0
++defaults/win-64::certifi-2020.12.5-py39haa95532_0
++defaults/win-64::openssl-1.1.1j-h2bbff1b_0
++defaults/win-64::pip-21.0.1-py39haa95532_0
++defaults/win-64::python-3.9.1-h6244533_2
++defaults/win-64::setuptools-52.0.0-py39haa95532_0
++defaults/win-64::sqlite-3.33.0-h2a8f88b_0
++defaults/win-64::ujson-4.0.2-py39hd77b12b_0
++defaults/win-64::vc-14.2-h21ff451_1
++defaults/win-64::vs2015_runtime-14.27.29016-h5e58377_2
++defaults/win-64::wincertstore-0.2-py39h2bbff1b_0
++defaults/win-64::zlib-1.2.11-h62dcd97_4
+# update specs: ['ujson']
+==> 2021-02-25 13:24:21 <==
+# cmd: C:\NiksBot\Scripts\conda-script.py install python==3.7.0
+# conda version: 4.9.2
+-defaults/win-64::certifi-2020.12.5-py39haa95532_0
+-defaults/win-64::pip-21.0.1-py39haa95532_0
+-defaults/win-64::python-3.9.1-h6244533_2
+-defaults/win-64::setuptools-52.0.0-py39haa95532_0
+-defaults/win-64::ujson-4.0.2-py39hd77b12b_0
+-defaults/win-64::wincertstore-0.2-py39h2bbff1b_0
++defaults/win-64::certifi-2020.12.5-py37haa95532_0
++defaults/win-64::pip-21.0.1-py37haa95532_0
++defaults/win-64::python-3.7.0-hea74fb7_0
++defaults/win-64::setuptools-52.0.0-py37haa95532_0
++defaults/win-64::ujson-4.0.2-py37hd77b12b_0
++defaults/win-64::wincertstore-0.2-py37_0
+# update specs: ['python==3.7.0']
+==> 2021-02-25 13:27:19 <==
+# cmd: C:\NiksBot\Scripts\conda-script.py install -c anaconda tensorflow==2.1
+# conda version: 4.9.2
+-defaults/win-64::ca-certificates-2021.1.19-haa95532_0
+-defaults/win-64::certifi-2020.12.5-py37haa95532_0
+-defaults/win-64::openssl-1.1.1j-h2bbff1b_0
++anaconda/noarch::attrs-20.2.0-py_0
++anaconda/noarch::cachetools-4.1.1-py_0
++anaconda/noarch::click-7.1.2-py_0
++anaconda/noarch::google-auth-1.22.1-py_0
++anaconda/noarch::google-auth-oauthlib-0.4.1-py_2
++anaconda/noarch::google-pasta-0.2.0-py_0
++anaconda/noarch::idna-2.10-py_0
++anaconda/noarch::importlib-metadata-2.0.0-py_1
++anaconda/noarch::keras-applications-1.0.8-py_1
++anaconda/noarch::keras-preprocessing-1.1.0-py_1
++anaconda/noarch::oauthlib-3.1.0-py_0
++anaconda/noarch::opt_einsum-3.1.0-py_0
++anaconda/noarch::pyasn1-0.4.8-py_0
++anaconda/noarch::pyasn1-modules-0.2.8-py_0
++anaconda/noarch::pycparser-2.20-py_2
++anaconda/noarch::pyopenssl-19.1.0-py_1
++anaconda/noarch::requests-2.24.0-py_0
++anaconda/noarch::requests-oauthlib-1.3.0-py_0
++anaconda/noarch::rsa-4.6-py_0
++anaconda/noarch::six-1.15.0-py_0
++anaconda/noarch::tensorboard-2.2.1-pyh532a8cf_0
++anaconda/noarch::tensorboard-plugin-wit-1.6.0-py_0
++anaconda/noarch::tensorflow-estimator-2.1.0-pyhd54b08b_0
++anaconda/noarch::urllib3-1.25.11-py_0
++anaconda/noarch::werkzeug-0.16.1-py_0
++anaconda/noarch::zipp-3.3.1-py_0
++anaconda/win-64::_tflow_select-2.2.0-eigen
++anaconda/win-64::absl-py-0.10.0-py37_0
++anaconda/win-64::aiohttp-3.6.3-py37he774522_0
++anaconda/win-64::astor-0.8.1-py37_0
++anaconda/win-64::async-timeout-3.0.1-py37_0
++anaconda/win-64::blas-1.0-mkl
++anaconda/win-64::blinker-1.4-py37_0
++anaconda/win-64::brotlipy-0.7.0-py37he774522_1000
++anaconda/win-64::ca-certificates-2020.10.14-0
++anaconda/win-64::certifi-2020.6.20-py37_0
++anaconda/win-64::cffi-1.14.3-py37h7a1dbc1_0
++anaconda/win-64::chardet-3.0.4-py37_1003
++anaconda/win-64::cryptography-3.1.1-py37h7a1dbc1_0
++anaconda/win-64::gast-0.2.2-py37_0
++anaconda/win-64::grpcio-1.31.0-py37he7da953_0
++anaconda/win-64::h5py-2.8.0-py37hf7173ca_0
++anaconda/win-64::hdf5-1.8.18-vc14h7a021fe_0
++anaconda/win-64::icc_rt-2019.0.0-h0cc432a_1
++anaconda/win-64::intel-openmp-2020.2-254
++anaconda/win-64::libprotobuf-3.13.0.1-h200bbdf_0
++anaconda/win-64::markdown-3.3.2-py37_0
++anaconda/win-64::mkl-2019.4-245
++anaconda/win-64::mkl-service-2.3.0-py37hb782905_0
++anaconda/win-64::mkl_fft-1.2.0-py37h45dec08_0
++anaconda/win-64::mkl_random-1.1.0-py37h675688f_0
++anaconda/win-64::multidict-4.7.6-py37he774522_1
++anaconda/win-64::numpy-1.19.1-py37h5510c5b_0
++anaconda/win-64::numpy-base-1.19.1-py37ha3acd2a_0
++anaconda/win-64::openssl-1.1.1h-he774522_0
++anaconda/win-64::protobuf-3.13.0.1-py37ha925a31_1
++anaconda/win-64::pyjwt-1.7.1-py37_0
++anaconda/win-64::pysocks-1.7.1-py37_1
++anaconda/win-64::scipy-1.5.2-py37h9439919_0
++anaconda/win-64::tensorflow-2.1.0-eigen_py37hd727fc0_0
++anaconda/win-64::tensorflow-base-2.1.0-eigen_py37h49b2757_0
++anaconda/win-64::termcolor-1.1.0-py37_1
++anaconda/win-64::win_inet_pton-1.1.0-py37_0
++anaconda/win-64::wrapt-1.12.1-py37he774522_1
++anaconda/win-64::yarl-1.6.2-py37he774522_0
+# update specs: ['tensorflow==2.1']

@@ -1,0 +1,32 @@
+{
+  "build": "eigen",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\NiksBot\\pkgs\\_tflow_select-2.2.0-eigen",
+  "features": "",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "_tflow_select-2.2.0-eigen.tar.bz2",
+  "link": {
+    "source": "C:\\NiksBot\\pkgs\\_tflow_select-2.2.0-eigen",
+    "type": 1
+  },
+  "md5": "9f0a8a3fcd4783d14c090282577e5b13",
+  "name": "_tflow_select",
+  "package_tarball_full_path": "C:\\NiksBot\\pkgs\\_tflow_select-2.2.0-eigen.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f0d87710ded10b49178ca0ebc5a2024f4724aae18108249bc61a6476643dc451",
+  "size": 3004,
+  "subdir": "win-64",
+  "timestamp": 1538709815212,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/win-64/_tflow_select-2.2.0-eigen.tar.bz2",
+  "version": "2.2.0"
+}

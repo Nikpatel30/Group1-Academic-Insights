@@ -1,0 +1,60 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/anaconda/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "C:\\NiksBot\\pkgs\\termcolor-1.1.0-py37_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/__pycache__/termcolor.cpython-37.pyc",
+    "Lib/site-packages/termcolor-1.1.0-py3.7.egg-info",
+    "Lib/site-packages/termcolor.py",
+    ".nonadmin"
+  ],
+  "fn": "termcolor-1.1.0-py37_1.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\NiksBot\\pkgs\\termcolor-1.1.0-py37_1",
+    "type": 1
+  },
+  "md5": "12180a829c52ae91dd30d4698ba819a7",
+  "name": "termcolor",
+  "package_tarball_full_path": "C:\\NiksBot\\pkgs\\termcolor-1.1.0-py37_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/__pycache__/termcolor.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a90d32bf1dc67fbab3b9c745b46638d32737057c7fbbf82af1a4a84f9c0a5291",
+        "sha256_in_prefix": "a90d32bf1dc67fbab3b9c745b46638d32737057c7fbbf82af1a4a84f9c0a5291",
+        "size_in_bytes": 3011
+      },
+      {
+        "_path": "Lib/site-packages/termcolor-1.1.0-py3.7.egg-info",
+        "path_type": "hardlink",
+        "sha256": "92de481bb53d288fe6aa0c40b5536903a4e017d66df5562f357d8de59302b93a",
+        "sha256_in_prefix": "92de481bb53d288fe6aa0c40b5536903a4e017d66df5562f357d8de59302b93a",
+        "size_in_bytes": 4130
+      },
+      {
+        "_path": "Lib/site-packages/termcolor.py",
+        "path_type": "hardlink",
+        "sha256": "3906256065402b158eb6fec9c4889212ffaf26fe450846badf7153ccc7ab63b2",
+        "sha256_in_prefix": "3906256065402b158eb6fec9c4889212ffaf26fe450846badf7153ccc7ab63b2",
+        "size_in_bytes": 5044
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "af2e899f7b9ec2f7634060f6f1a7b864475034dcd1f0eb823bba7f56a03f6c1b",
+  "size": 7486,
+  "subdir": "win-64",
+  "timestamp": 1533406980773,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/win-64/termcolor-1.1.0-py37_1.tar.bz2",
+  "version": "1.1.0"
+}
