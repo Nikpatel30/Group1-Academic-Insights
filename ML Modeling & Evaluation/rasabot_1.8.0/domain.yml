@@ -25,6 +25,9 @@ actions:
   - utter_ask_course
   - utter_ask_group
   - action_timetable_search
+
+forms:
+- TimetableForm
   
 
 slots:

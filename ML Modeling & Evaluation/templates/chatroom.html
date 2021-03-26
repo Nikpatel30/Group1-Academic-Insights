@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <css>
+          
+        </css>
+      </head>
+      <body>
+        <div class="chat-container"></div>
+      
+        <script src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js"/></script>
+        <script type="text/javascript">
+          var chatroom = new window.Chatroom({
+            host: "http://localhost:5005",
+            title: "Chat Bot For Academitia",
+            container: document.querySelector(".chat-container"),
+            welcomeMessage: "Hi, I am Rasa powered Assistant. How can I help you?",
+            //speechRecognition: "en-US",
+            //voiceLang: "en-US"
+          });
+          chatroom.openChat();
+        </script>
+      </body>
+</html>

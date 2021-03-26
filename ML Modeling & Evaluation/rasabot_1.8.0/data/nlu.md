@@ -71,19 +71,33 @@
 - [c](Group)
 
 ## intent: inform_timetable
-- I want to know the [schedule](Timetable) for [AIDI](Course) course group [b](Group)
-- I want to know the [timetable](Timetable) for [Artificial Intelligence](Course)  course group [B](Group)\
-- [time table](Timetable) for [Big data Analytics](Course) group [a](Group)
-- What is my [schedule](Timetable) for ][today](Date)?
-- What is my [Time table](Timetable)?
-- I want to know my [time-table](Timetable)?
-- [time table](Timetable)
-- [lecture's](Timetable) for [tommorow](Date)?
-- [tommorow](Date) [schedule](Timetable)?
-- My [schedule](Timetable) for [Wednesday](Date)?
+- I want to know the [schedule](Timetable:x11b-2bb2) for [AIDI](Course) course group [b](Group)
+- I want to know the [timetable](Timetable:x11b-2bb1) for [Artificial Intelligence](Course)  course group [B](Group)
+- [time table](Timetable:x11b-2bb1) for [Big data Analytics](Course) group [a](Group)
+- What is my [schedule](Timetable:x11b-2bb2) for ][today](Date)?
+- What is my [Time table](Timetable:x11b-2bb1)?
+- I want to know my [time-table](Timetable:x11b-2bb1)?
+- [time table](Timetable:x11b-2bb1)
+- [lecture's](Timetable:x11b-2bb3) for [tommorow](Date)?
+- [tommorow](Date) [schedule](Timetable:x11b-2bb2)?
+- My [schedule](Timetable:x11b-2bb2) for [Wednesday](Date)?
 
 ## intent: thanks
 - Thank you!
 - Thank you so much!
 - Thanks!
 - That's helpful!
+
+## synonym:x11b-2bb1
+- timetable
+- time table
+- Time table
+- time-table
+
+## synonym:x11b-2bb2
+- schedule
+- Schedule
+
+## synonym:x11b-2bb3
+- lecture's
+- lecture
