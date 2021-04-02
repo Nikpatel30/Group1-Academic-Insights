@@ -57,7 +57,7 @@
 
 ## intent: inform_course
 - [Artificial Intelligence](Course)
-- [AIID](Course)
+- [AIDI](Course)
 - [AI](Course)
 - [Big Data Analytics](Course)
 - [BDAT](Course)
@@ -70,17 +70,27 @@
 - [C](Group)
 - [c](Group)
 
+## intent: inform_date
+- [Monday](Date)
+- [Tuesday](Date)
+- [Wednesday](Date)
+- [Thursday](Date)
+- [Friday](Date)
+
 ## intent: inform_timetable
-- I want to know the [schedule](Timetable:x11b-2bb2) for [AIDI](Course) course group [b](Group)
-- I want to know the [timetable](Timetable:x11b-2bb1) for [Artificial Intelligence](Course)  course group [B](Group)
-- [time table](Timetable:x11b-2bb1) for [Big data Analytics](Course) group [a](Group)
-- What is my [schedule](Timetable:x11b-2bb2) for ][today](Date)?
-- What is my [Time table](Timetable:x11b-2bb1)?
-- I want to know my [time-table](Timetable:x11b-2bb1)?
-- [time table](Timetable:x11b-2bb1)
-- [lecture's](Timetable:x11b-2bb3) for [tommorow](Date)?
-- [tommorow](Date) [schedule](Timetable:x11b-2bb2)?
-- My [schedule](Timetable:x11b-2bb2) for [Wednesday](Date)?
+- I want to know [timetable](Timetable) for [Artificial Intelligence](Course) for [B](Group) for [Tuesday](Date)
+- Can i know my [Timetable](Timetable) for [Big data Analytics](Course) for [a](Group) for [Monday](Date)
+- [Friday](Date) [timetable](Timetable) for [C](Group)
+- I want to know the [schedule](Timetable) for [AIDI](Course) course group [b](Group)
+- I want to know the [timetable](Timetable) for [Artificial Intelligence](Course)  course group [B](Group)
+- [time table](Timetable) for [Big data Analytics](Course) group [a](Group)
+- What is my [schedule](Timetable) for ][Tuesday](Date)?
+- What is my [Time table](Timetable) for [Artificial Intelligence](Course) for group [c](Group)?
+- I want to know my [time-table](Timetable)?
+- [time table](Timetable)
+- [lecture's](Timetable) for [Monday](Date)?
+- [tommorow](Date) [schedule](Timetable)?
+- My [schedule](Timetable) for [Wednesday](Date)?
 
 ## intent: thanks
 - Thank you!
@@ -88,16 +98,19 @@
 - Thanks!
 - That's helpful!
 
-## synonym:x11b-2bb1
-- timetable
-- time table
-- Time table
-- time-table
+## synonym: Artificial Intelligence
+    examples:
+    - AIDI
+    - aidi
+    - Artificial
+    - AI
+    - ai
 
-## synonym:x11b-2bb2
-- schedule
-- Schedule
+## synonym: Big Data Analysis
+    examples:
+    - Bdat
+    - Big data
+    - BDAT
+    - Data Analysis
 
-## synonym:x11b-2bb3
-- lecture's
-- lecture
+

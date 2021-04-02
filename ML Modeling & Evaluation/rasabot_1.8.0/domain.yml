@@ -8,6 +8,7 @@ intents:
   - bot_challenge
   - inform_course
   - inform_group
+  - inform_date
   - inform_timetable
   - thanks
 

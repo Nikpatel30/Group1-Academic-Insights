@@ -11,6 +11,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.forms import FormAction
+import csv
 
 class ActionTimetableSearch(Action):
 
@@ -20,27 +21,58 @@ class ActionTimetableSearch(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        course = (tracker.get_slot("Course")).upper()
+        group = (tracker.get_slot("Group")).upper()
+        
+         
+        # read the CSV file
+        with open('data/timetable.csv', 'r') as file:
+            reader = csv.DictReader(file)
+            dispatcher.utter_message("You are looking for course " + course + " for group " + group)
+            if course and group:
+                output = [row for row in reader if row['Course'] == course 
+                                    and row['Group'] == group ]
 
-        dispatcher.utter_message(text="Sure, I'm on it!")
+        if output: # there is at least one value
+            reply = ''
+            for list in output:
+                reply += list['Subject'] + "\nDay: " + list["Day"] + "\nTime: " + list['Time'] + "\nRoom No.: " + list['Room'] + "\n\n"
+            reply += "Thank you\n"
+            reply += "Can, I help you with other queries?"
+            dispatcher.utter_message(reply)
+
+        else: # the list is empty
+            
+            dispatcher.utter_message("No Data Found, Please Try again.")
+
+        
 
         return []
 
-class TimetableForm(FormAction):
+# class TimetableForm(FormAction):
 
-    def name(self) -> Text:
-        return "facility_form"
+#     def name(self) -> Text:
+#         return "facility_form"
 
-    @staticmethod
-    def required_slots(tracker: Tracker) -> List[Text]:
-        return ["facility_type", "location"]
+#     def run(self, dispatcher:CollectingDispatcher,
+#             tracker: Tracker,
+#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+#         dispatcher.utter_message(text="Here is the text to show")
+#         return []
 
-    def slot_mappings(self) -> Dict[Text, Any]:
-        return {"Course": self.from_entity(entity="Course",
-                                        intent=["inform",
-                                        "search_provider"]),
-                    "Timetable": self.from_entity(entity= "Timetable",
-                            intent=["infrom", "search_provider"])
-                            }
+#     @staticmethod
+#     def required_slots(tracker: Tracker) -> List[Text]:
+#         return ["facility_type", "location"]
+
+#     def slot_mappings(self) -> Dict[Text, Any]:
+#         return {"Course": self.from_entity(entity="Course",
+#                                         intent=["inform",
+#                                         "search_provider"]),
+#                     "Timetable": self.from_entity(entity= "Timetable",
+#                             intent=["infrom", "search_provider"])
+#                             }
         
 #    def submit(self, dispatcher: CollectingDispatcher,
 #                 tracker: Tracker,

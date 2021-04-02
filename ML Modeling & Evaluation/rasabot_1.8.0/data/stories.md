@@ -2,43 +2,18 @@
 * greet
   - utter_greet
 
-* inform_timetable{"Timetable" : "timetable", "Course" : "AIDI" , "Group" : "A" , "Date" : "Today" }
+* inform_timetable{"Timetable" : "timetable", "Course" : "AIDI" , "Group" : "A" , "Date" : "Tuesday" }
   - action_timetable_search
 
 * thanks
   -utter_goodbye
 
-## Time table + course
-* greet
-  - utter_greet
-  
-* inform_timetable{"Timetable" : "timetable", "Group" : "A" , "Date" : "Today" }
-  - utter_ask_course
-
-* inform_course{"Course" : "AIDI"}
-  - action_timetable_search
-  
-* thanks
-  -utter_goodbye
-
-## Time table + group
-* greet
-  - utter_greet
-  
-* inform_timetable{"Timetable" : "timetable", "Course" : "AIDI" , "Date" : "Today" }
-  - utter_ask_group
-
-* inform_group{"Group" : "A"}
-  - action_timetable_search
-  
-* thanks
-  -utter_goodbye
 
 ## Time table + course + group
 * greet
   - utter_greet
   
-* inform_timetable{"Timetable" : "timetable" , "Date" : "Today" }
+* inform_timetable{"Timetable" : "timetable" , "Date" : "Monday" }
   - utter_ask_course
 
 * inform_course{"Course" : "AIDI"}
