@@ -1,0 +1,22 @@
+Rasabot_1.8.0
+
+open command prompt
+navigate to rasabot_1.8.0 folder
+>>activate rasabot_1.8.0
+
+
+Check intent and entity probability
+>>rasa shell
+
+run action file and nlu data
+>>rasa train nlu
+
+
+
+rasa run --credentials ./credentials.yml  --enable-api --auth-token XYZ123 --model ./models --endpoints ./endpoints.yml --cors "*"
+
+>>python ./manage.py runserver
+
+rasa run -m models --enable-api --cors "*" --debug
+rasa run actions & shell
+
